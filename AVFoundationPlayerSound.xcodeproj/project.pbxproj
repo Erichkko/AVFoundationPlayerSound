@@ -34,6 +34,16 @@
 		FE95AEB11D4E3C330025650C /* sendcard.aac in Resources */ = {isa = PBXBuildFile; fileRef = FE95AE9D1D4E3C330025650C /* sendcard.aac */; };
 		FE95AEB21D4E3C330025650C /* win.aac in Resources */ = {isa = PBXBuildFile; fileRef = FE95AE9E1D4E3C330025650C /* win.aac */; };
 		FE95AEB51D4E4D1B0025650C /* WLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95AEB41D4E4D1B0025650C /* WLTool.m */; };
+		FE95AEC11D4F82180025650C /* 10405520.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEB71D4F82180025650C /* 10405520.mp3 */; };
+		FE95AEC21D4F82180025650C /* 10736444.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEB81D4F82180025650C /* 10736444.mp3 */; };
+		FE95AEC31D4F82180025650C /* 1201111234.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEB91D4F82180025650C /* 1201111234.mp3 */; };
+		FE95AEC41D4F82180025650C /* 120125029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEBA1D4F82180025650C /* 120125029.mp3 */; };
+		FE95AEC51D4F82180025650C /* 12309111.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEBB1D4F82180025650C /* 12309111.mp3 */; };
+		FE95AEC61D4F82180025650C /* 14945107.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEBC1D4F82180025650C /* 14945107.mp3 */; };
+		FE95AEC71D4F82180025650C /* 235319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEBD1D4F82180025650C /* 235319.mp3 */; };
+		FE95AEC81D4F82180025650C /* 255319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEBE1D4F82180025650C /* 255319.mp3 */; };
+		FE95AEC91D4F82180025650C /* 309769.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEBF1D4F82180025650C /* 309769.mp3 */; };
+		FE95AECA1D4F82180025650C /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE95AEC01D4F82180025650C /* 339744.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +79,16 @@
 		FE95AE9E1D4E3C330025650C /* win.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.aac; sourceTree = "<group>"; };
 		FE95AEB31D4E4D1B0025650C /* WLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTool.h; sourceTree = "<group>"; };
 		FE95AEB41D4E4D1B0025650C /* WLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTool.m; sourceTree = "<group>"; };
+		FE95AEB71D4F82180025650C /* 10405520.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10405520.mp3; sourceTree = "<group>"; };
+		FE95AEB81D4F82180025650C /* 10736444.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10736444.mp3; sourceTree = "<group>"; };
+		FE95AEB91D4F82180025650C /* 1201111234.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1201111234.mp3; sourceTree = "<group>"; };
+		FE95AEBA1D4F82180025650C /* 120125029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120125029.mp3; sourceTree = "<group>"; };
+		FE95AEBB1D4F82180025650C /* 12309111.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12309111.mp3; sourceTree = "<group>"; };
+		FE95AEBC1D4F82180025650C /* 14945107.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14945107.mp3; sourceTree = "<group>"; };
+		FE95AEBD1D4F82180025650C /* 235319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 235319.mp3; sourceTree = "<group>"; };
+		FE95AEBE1D4F82180025650C /* 255319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 255319.mp3; sourceTree = "<group>"; };
+		FE95AEBF1D4F82180025650C /* 309769.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 309769.mp3; sourceTree = "<group>"; };
+		FE95AEC01D4F82180025650C /* 339744.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 339744.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +139,7 @@
 		FE95AE731D4E39600025650C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE95AEB61D4F82180025650C /* MP3s */,
 				FE95AE8A1D4E3C330025650C /* 斗地主音频 */,
 				FE95AE741D4E39600025650C /* main.m */,
 			);
@@ -150,6 +171,24 @@
 				FE95AE9E1D4E3C330025650C /* win.aac */,
 			);
 			path = "斗地主音频";
+			sourceTree = "<group>";
+		};
+		FE95AEB61D4F82180025650C /* MP3s */ = {
+			isa = PBXGroup;
+			children = (
+				FE95AEB71D4F82180025650C /* 10405520.mp3 */,
+				FE95AEB81D4F82180025650C /* 10736444.mp3 */,
+				FE95AEB91D4F82180025650C /* 1201111234.mp3 */,
+				FE95AEBA1D4F82180025650C /* 120125029.mp3 */,
+				FE95AEBB1D4F82180025650C /* 12309111.mp3 */,
+				FE95AEBC1D4F82180025650C /* 14945107.mp3 */,
+				FE95AEBD1D4F82180025650C /* 235319.mp3 */,
+				FE95AEBE1D4F82180025650C /* 255319.mp3 */,
+				FE95AEBF1D4F82180025650C /* 309769.mp3 */,
+				FE95AEC01D4F82180025650C /* 339744.mp3 */,
+			);
+			name = MP3s;
+			path = "斗地主音频/MP3s";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,25 +249,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE95AEC41D4F82180025650C /* 120125029.mp3 in Resources */,
+				FE95AEC81D4F82180025650C /* 255319.mp3 in Resources */,
 				FE95AEAF1D4E3C330025650C /* m_17.wav in Resources */,
 				FE95AEAA1D4E3C330025650C /* m_12.wav in Resources */,
+				FE95AEC71D4F82180025650C /* 235319.mp3 in Resources */,
 				FE95AEA91D4E3C330025650C /* m_11.wav in Resources */,
 				FE95AE831D4E39600025650C /* LaunchScreen.storyboard in Resources */,
 				FE95AEA01D4E3C330025650C /* lose.aac in Resources */,
+				FE95AECA1D4F82180025650C /* 339744.mp3 in Resources */,
+				FE95AEC61D4F82180025650C /* 14945107.mp3 in Resources */,
 				FE95AEAB1D4E3C330025650C /* m_13.wav in Resources */,
+				FE95AEC91D4F82180025650C /* 309769.mp3 in Resources */,
+				FE95AEC31D4F82180025650C /* 1201111234.mp3 in Resources */,
 				FE95AE9F1D4E3C330025650C /* buyao.wav in Resources */,
 				FE95AEAD1D4E3C330025650C /* m_15.wav in Resources */,
 				FE95AEA61D4E3C330025650C /* m_08.wav in Resources */,
 				FE95AEA81D4E3C330025650C /* m_10.wav in Resources */,
+				FE95AEC51D4F82180025650C /* 12309111.mp3 in Resources */,
 				FE95AEA11D4E3C330025650C /* m_03.wav in Resources */,
 				FE95AEAE1D4E3C330025650C /* m_16.wav in Resources */,
 				FE95AEB01D4E3C330025650C /* normal.aac in Resources */,
 				FE95AEB21D4E3C330025650C /* win.aac in Resources */,
+				FE95AEC21D4F82180025650C /* 10736444.mp3 in Resources */,
 				FE95AE801D4E39600025650C /* Assets.xcassets in Resources */,
 				FE95AEA51D4E3C330025650C /* m_07.wav in Resources */,
 				FE95AEA31D4E3C330025650C /* m_05.wav in Resources */,
 				FE95AEA41D4E3C330025650C /* m_06.wav in Resources */,
 				FE95AEAC1D4E3C330025650C /* m_14.wav in Resources */,
+				FE95AEC11D4F82180025650C /* 10405520.mp3 in Resources */,
 				FE95AEA71D4E3C330025650C /* m_09.wav in Resources */,
 				FE95AEB11D4E3C330025650C /* sendcard.aac in Resources */,
 				FE95AE7E1D4E39600025650C /* Main.storyboard in Resources */,

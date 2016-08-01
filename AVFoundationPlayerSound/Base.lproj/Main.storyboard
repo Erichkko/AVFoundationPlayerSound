@@ -18,31 +18,59 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tz-4O-dhT">
-                                <rect key="frame" x="163" y="160" width="30" height="30"/>
+                                <rect key="frame" x="77" y="158" width="30" height="30"/>
                                 <state key="normal" title="不要"/>
                                 <connections>
                                     <action selector="buyao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMi-r1-TBC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nu-Eh-wCT">
-                                <rect key="frame" x="163" y="198" width="30" height="30"/>
+                                <rect key="frame" x="77" y="196" width="30" height="30"/>
                                 <state key="normal" title="大王"/>
                                 <connections>
                                     <action selector="dawang:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fxm-tP-K7c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibf-HC-iS2">
-                                <rect key="frame" x="148" y="247" width="60" height="30"/>
+                                <rect key="frame" x="62" y="245" width="60" height="30"/>
                                 <state key="normal" title="背景音乐"/>
                                 <connections>
                                     <action selector="beijing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewh-pj-EPg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xu-Xi-TsM">
-                                <rect key="frame" x="163" y="311" width="30" height="30"/>
+                                <rect key="frame" x="77" y="309" width="30" height="30"/>
                                 <state key="normal" title="赢了"/>
                                 <connections>
                                     <action selector="win:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L5K-hp-Mxd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="088-Dh-E4s">
+                                <rect key="frame" x="233" y="158" width="30" height="30"/>
+                                <state key="normal" title="播放"/>
+                                <connections>
+                                    <action selector="playMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XuE-dC-FOR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cba-cv-V5R">
+                                <rect key="frame" x="233" y="196" width="30" height="30"/>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="pauseMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0C-SK-5X9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLc-Yk-SQR">
+                                <rect key="frame" x="233" y="245" width="30" height="30"/>
+                                <state key="normal" title="停止"/>
+                                <connections>
+                                    <action selector="stopMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UM9-ee-Ta7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w78-Fr-hvX">
+                                <rect key="frame" x="226" y="309" width="45" height="30"/>
+                                <state key="normal" title="换一首"/>
+                                <connections>
+                                    <action selector="otherMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xMP-sU-NGc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,6 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="390.5" y="221.5"/>
         </scene>
     </scenes>
 </document>

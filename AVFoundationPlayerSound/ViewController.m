@@ -35,7 +35,7 @@
 - (IBAction)buyao:(id)sender {
     
 //    [self playAudioWithName:@"buyao.wav"];
-    [WLTool playSoundWithName:@"buyao.wav"];
+    [WLTool playSoundWithName:nil];
 }
 
 - (IBAction)dawang:(id)sender {
@@ -93,4 +93,20 @@
 }
 
 #pragma mark - 懒加载的形式播放音频
+
+
+- (IBAction)playMusic:(UIButton *)sender {
+    [WLTool playMusicWithName:@"10405520.mp3"];
+}
+- (IBAction)pauseMusic:(UIButton *)sender {
+    [WLTool pauseMusicWithName:@"10405520.mp3"];
+}
+- (IBAction)stopMusic:(UIButton *)sender {
+    [WLTool stopMusicWithName:@"10405520.mp3"];
+}
+- (IBAction)otherMusic:(UIButton *)sender {
+    //10736444
+    [WLTool playMusicWithName:@"10736444.mp3"];
+}
+#pragma mark - 播放音乐
 @end

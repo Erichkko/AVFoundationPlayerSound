@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D0FFD81A66E97D683B64B1E2845BD3F77208CE66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D0FFD81A66E97D683B64B1E2845BD3F77208CE66" : 0,
+    "65D6DB69FC84550EA0B40BE6508B97475483A876" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5B6DA16A-D630-4843-AF01-00A4C205E71D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D0FFD81A66E97D683B64B1E2845BD3F77208CE66" : "AVFoundationPlayerSound\/",
+    "65D6DB69FC84550EA0B40BE6508B97475483A876" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AVFoundationPlayerSound",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AVFoundationPlayerSound.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erichkko\/PinterestLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65D6DB69FC84550EA0B40BE6508B97475483A876"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erichkko\/AVFoundationPlayerSound.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0FFD81A66E97D683B64B1E2845BD3F77208CE66"
+    }
+  ]
+}
